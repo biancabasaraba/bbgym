@@ -1,0 +1,327 @@
+
+
+/*body, h-uri, p, container, sectiune*/
+header, body, footer {
+    width: 100%;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    padding: 20px; 
+    border-radius: 8px;
+    margin: 20px;
+    width: 100%;
+}
+
+h3 {
+
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+p {
+   
+    line-height: 1.6;
+    margin-bottom: 24px;
+    margin: 5px;
+}
+
+
+/*NAV, CAROUSEL*/
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9ecef;
+    padding: 3px;
+    text-align: center;
+}
+
+.logoBB { 
+    width: 120px;
+    margin: 10px;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 0;
+    border-radius: 8px;
+    padding-bottom: 30px;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.banner-text-left,
+.banner-text-right {
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  padding: 10px;
+  text-align: center; 
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.banner-text-left {
+  left: 20%;
+}
+
+.banner-text-right {
+  left: 80%;
+}
+
+
+/*SERVICII*/
+.servicii-container {
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.serviciu-card {
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%; 
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.serviciu-card:hover {
+    transform: scale(1.05);
+}
+
+.servicii-text {
+    line-height: 1.6;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 8px;
+    max-width: 60ch;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.serviciu-card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/*TARIFE*/
+.tarife-card {
+    border: 1px solid rgb(204, 204, 204);
+    width: 100%; 
+    height: 100%; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    flex: 1 0 30%; 
+}
+
+.tarife-card:hover {
+    transform: scale(1.05);
+}
+
+.tarife-card img {
+    width: 90%;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.tarife-card h3 {
+    margin: 10px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.tarife-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.tarife-card li {
+    margin-bottom: 5px;
+}
+
+.tarife-card span.badge {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+
+
+/*Despre Noi*/
+.despre-noi-container {
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    padding: 15px 0;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.despre-noi-text p {
+    color: #000000;
+    line-height: 1.6;
+    margin-left: 25px;
+}
+
+
+
+/*ECHIPA NOASTRA*/
+.echipa-container {
+    padding-bottom: 30px; 
+}
+
+.card-antrenori {
+    margin: 10px; 
+}
+
+.descriere-antrenori {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.antrenor img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+
+/*BB Gym App*/
+.bb-app-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bb-app-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bb-app-imagine img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.bb-app-text p {
+    line-height: 1.6;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: justify;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #e9ecef;
+    color: black;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.social-links, .navigation {
+    margin-bottom: 10px;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+}
+
+.navigation a {
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.logo img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+iframe {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #000;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-style: oblique;
+    font-size: 12px;
+}
